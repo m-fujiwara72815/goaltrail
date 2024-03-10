@@ -8,7 +8,7 @@ public class PagesController {
 
     @GetMapping("/")
     public String index() {
-        return "users/login";
+        return "sessions/new";
     }
 }
 
